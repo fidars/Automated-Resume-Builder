@@ -1,7 +1,7 @@
 <?PHP
 	$usn= $fullname= $mobile= $email= $website= $linkedin= $github= $hno= $street= $city= $state= $country= $pin= $careerobjective= $betotal= $becollege= $beuniversity= $beyear= $preuniversitymarks= $pucollege= $puuniversity= $puyear= $sslcmarks= $school= $schoolboard= $sslcyear= $project1= $project1abstract= $project2= $project2abstract= $project3= $project3abstract= $project4= $project4abstract= $publication1= $publication2= $publication3= $publication4= $programming= $web= $tools= $os= $extra1= $extra2= $extra3= $extra4= $extra5= $hobby1= $hobby2= $hobby3= $hobby4= $hobby5= $fathersname= $mothersname= $gender= $dd= $mm= $yyyy= $nationality= $maritalstatus= $languagesknown= $declaration= "";
 	
-	$link=mysqli_connect("localhost","root","kolli","resumebuilder") or die("Error " . mysqli_error($link)); 
+	$link=mysqli_connect("localhost","username","password","resumebuilder") or die("Error " . mysqli_error($link)); 
 
 	$usn= $_POST["usn"];
 	
